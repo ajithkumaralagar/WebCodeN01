@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+      }
+  
+
+      
+   
+     .pokemon-card {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .pokemon-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    background-color:skyblue;
+  }
+  
+  .pokemon-abilities {
+    margin-bottom: 5px;
+    background-color: rgb(21, 255, 0);
+  }
+  
+  .pokemon-moves {
+    margin-bottom: 5px;
+    background-color: rgb(21, 255, 0);
+  }
+  
+  .pokemon-weight {
+    font-style: italic;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .page-link {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #f1f1f1;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .page-link.active {
+    background-color: #333;
+    color: #fff;
+  }
