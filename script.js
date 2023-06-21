@@ -4,7 +4,7 @@ const paginat = document.getElementById('pagination');
 const itemsPerPage = 10;
 let currentPage = 1;
 let totalPokemon = 0;
-let totalPages = 5; // Total number of pages set to 5
+let totalPages = 5;
 
 async function getPokemonNames() {
   try {
